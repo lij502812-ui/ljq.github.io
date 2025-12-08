@@ -8,7 +8,7 @@
     <link href="/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
     <url>/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<p>关于ipv4的学习总结</p><img src="/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/example.jpg" class="" title="This is an example image"><p>ip地址有本地回环地址、公有地址、私有地址</p><p>1本地回环地址:127.0.0.1<br>2私有ip地址:192.168.x.x<br>  172.16.x.x~172.31.x.x<br>  10.x.x.x<br>3其余都为共有ip地址</p>]]></content>
+    <content type="html"><![CDATA[<p>关于ipv4的学习总结</p><img src="/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/example.jpg" class="" title="This is an example image"><p>ip地址有本地回环地址、公有地址、私有地址</p><p>1本地回环地址:127.0.0.1<br>2私有ip地址:192.168.x.x<br>  172.16.x.x~172.31.x.x<br>  10.x.x.x<br>3其余都为公有ip地址</p>]]></content>
     
     
     <categories>
