@@ -5,10 +5,35 @@
   
   <entry>
     <title>关于ip方面的知识</title>
-    <link href="/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <url>/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+    <link href="/2025/12/17/ip%E4%B9%8B%E7%B1%BB%E7%9A%84/"/>
+    <url>/2025/12/17/ip%E4%B9%8B%E7%B1%BB%E7%9A%84/</url>
     
-    <content type="html"><![CDATA[<p>关于ipv4的学习总结</p><img src="/2025/12/17/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/example.jpg" class="" title="This is an example image"><p>ip地址有本地回环地址、公有地址、私有地址</p><p>1本地回环地址:127.0.0.1<br>2私有ip地址:192.168.x.x<br>  172.16.x.x~172.31.x.x<br>  10.x.x.x<br>3其余都为公有ip地址</p>]]></content>
+    <content type="html"><![CDATA[<p>关于ipv4的学习总结</p><p>ip地址有本地回环地址、公有地址、私有地址</p><p>1本地回环地址:127.0.0.1<br>2私有ip地址:192.168.x.x<br>  172.16.x.x~172.31.x.x<br>  10.x.x.x<br>3其余都为公有ip地址</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Java</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>原创</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>烦人的字符串</title>
+    <link href="/2025/12/13/%E5%AD%97%E7%AC%A6%E4%B8%B2/"/>
+    <url>/2025/12/13/%E5%AD%97%E7%AC%A6%E4%B8%B2/</url>
+    
+    <content type="html"><![CDATA[<p>java的字符串基础用法有+法运算,length()。<br>以及Substring()方法(需要对象如)b.Substring(1,2)意思是取第一个字符，注意第二个参数不是c++中的取多少个<br>还有Long.parseLong(k)意思是将字符串转化为Long类型并返回。类似还有Float.parseFloat(k)但是要注意int例外,integer.parseint(k)才对<br>特性:Java中的字符串是每次直接赋值会在字符常量池中寻找是否已经创建，已创建则会让其指向该地址，若没创建或是new出来的对象则会在堆中直接创建<br>在java中的字符串因为是对象的缘故，不能像c和python一样直接进行用索引改特定位置的元素内容，只能进行基础的拼接操作且每次相加都会产生新对象，所以性能消耗巨大；<br>此时就要用到Stringbuilder和StringJoiner<br>Stringbuilde是对一个字符串反复更改，不会创建新变量因此较为消耗不大。记住使用完后记得toString</p><p>StringJoiner可以对一个字符串添加首尾，中顿字符</p><p>数组长度用方法lenth，不用加括号<br>String数组b可以for (String b1 : b) {<br>                        System.err.println(b1);<br>                               }类似c++中的引用遍历</p>]]></content>
     
     
     <categories>
